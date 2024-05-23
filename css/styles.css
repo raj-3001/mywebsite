@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 200px;
+  display: flex;
+  background-color: rgb(15, 2, 53);
+  border: 2px solid transparent;
+  margin: 5px;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.flex-item {
+  width: 20%;
+  border: 2px solid transparent;
+  color: white;
+}
+.info {
+  list-style-type: none;
+  line-height: 30px;
+}
